@@ -198,7 +198,7 @@ def main():
     df_increase["PreviousAssessedValue"] = df_increase["PreviousAssessedValue"].fillna(0).map('{:,.0f}'.format)
     df_increase["IncreasedValue"] = df_increase["IncreasedValue"].fillna(0).map('{:,.0f}'.format)
     if DEBUG:
-        print(f"{df_increase = }")
+        print(f"{df_increase}")
     st.write(df_increase)
 
     st.write("")
