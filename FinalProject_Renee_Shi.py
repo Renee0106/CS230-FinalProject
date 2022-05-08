@@ -33,8 +33,8 @@ def main():
     df = read_data_from_csv(csv_file)
     st.title(st_title)
     if DEBUG:
-        print(f"{df.info = }")
-        print(f"{df.shape = }")
+        print(f"{df.info}")
+        print(f"{df.shape}")
     st.write("")
 
     # Question #1
